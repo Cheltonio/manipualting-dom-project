@@ -1,7 +1,6 @@
 let pDiv = document.getElementById("p-div");
 let iDiv = document.getElementById("img-div");
-let nDiv = document.createElement("div");
-document.querySelector("body").appendChild(nDiv);
+let nDiv = document.getElementById("nothing-div");
 nDiv.style.display = "none";
 
 let p = 0; let i = 0; let n = 0; let val;
